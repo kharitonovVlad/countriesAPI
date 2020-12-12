@@ -1,0 +1,43 @@
+.header{
+  position: fixed;
+
+  display: flex;
+  justify-content: space-between;
+  
+  margin-bottom: 30px;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background-color: #f2f2f2;
+}
+
+.headerMenu{
+  display: flex;
+
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+
+  cursor: pointer;
+}
+
+.headerItem{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0;
+  
+  background-color: #f2f2f2;
+}
+
+.headerItem:hover {
+  opacity: 50%;
+}
+
+.selectedItem{
+  color: red;
+}

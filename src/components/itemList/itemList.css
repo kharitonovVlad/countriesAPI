@@ -1,0 +1,49 @@
+body{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+
+  margin: 0;
+  padding-top: 100px;
+}
+
+.counriesContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 1206px;
+  margin: auto;
+}
+
+.counriesItem{
+  display: flex;
+  justify-content: space-between;
+
+  margin-right: 30px;
+  margin-bottom: 40px;
+
+  padding-left: 35px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  width: 310px;
+
+  box-shadow: 10px 5px 10px #f2f2f2;
+
+  background-color: #f2f2f2;
+
+  cursor: pointer;
+}
+
+.countriesInfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.countriesInfo h3{
+  margin-bottom: 30px;
+}
+
+.countriesFlag{
+  padding-top: 20px;
+}
